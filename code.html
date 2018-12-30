@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+  {% if post.categories contains 'code' %}
+    <a href="{{ site.baseurl }}{{ post.url }}">
+      <article class="small-card">
+
+        <div class="title">{{ post.title }}</div>
+
+        <div class="body">
+          <img src={{ post.cover-img }}>
+        </div>
+      </article>
+    </a>
+  {% endif %}
+{% endfor %}
