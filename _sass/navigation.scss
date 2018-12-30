@@ -1,0 +1,93 @@
+.sidenav {
+  background: linear-gradient(210deg, #016FB9, #016FB9, #016FB9, #016FB9);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 20%;
+  min-width: 245px;
+  position: fixed;
+  padding-right: 15px;
+  padding-top: 20px;
+  box-shadow: 2px 0px 4px 1px black;
+  z-index: 1;
+
+  .title {
+    color: black;
+    font-size: 2.1em;
+    font-family: 'Fugaz One', cursive;
+    display: block;
+    text-decoration: none;
+    padding-left: 15px;
+    transition: 0.6s;
+  }
+
+  .title:hover {
+    color: #E9DF00;
+    transition: 0.6s;
+  }
+
+  .subtitle {
+    color: #121212;
+    font-size: 1.1em;
+    font-family: 'Fugaz One', cursive;
+    display: block;
+    padding: 0px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    margin: 0px;
+    font-style: italic;
+  }
+
+  .main-link {
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Source Code Pro', monospace;
+    text-decoration: none;
+    display: block;
+    margin: 5px;
+    padding-left: 15px;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    transition: 0.6s;
+  }
+
+  .main-link:hover {
+    color: #E9DF00;
+    transition: 0.6s;
+  }
+
+  .social-media-container {
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 5px;
+    width: 100%;
+
+    i {
+      transition: 0.3s;
+    }
+
+    i:hover {
+      filter: invert(100%);
+      transition: 0.3s;
+    }
+  }
+
+}
+
+::-webkit-scrollbar-track {
+  border-bottom-right-radius: 5px;
+  background-color: #5a0020;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(210deg, #FCBA04, #E9DF00, #E9DF00, #FCBA04);
+  border-radius: 10px;
+}
