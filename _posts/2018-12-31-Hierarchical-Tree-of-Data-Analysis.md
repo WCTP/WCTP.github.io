@@ -4,8 +4,6 @@ title: Hierarchical Tree of Data Analysis
 published: true
 categories: blog
 ---
-## Background
-
 In the year 2018, it feels like many industry professionals got so carried away with the hype of big data that few people remember that Data Science is still an underdeveloped field. It is true that Data Science is backed up by statistics, computer science, and other fields depending on the context, but there is no scientific process that aids people in discovering correlations. Taking a step back, Data Science departments have no standardized structure. Each company's solution for handling data differs from place to place.  Due to this lack of standardization, we are now stuck in situations such as Cambridge Analytica, where even a company as big as Facebook can't handle all the information they are receiving. To avoid future violations of basic ethics, it is important to define what the Data Science department members are, and how they work together.
 
 ## Data Engineer
