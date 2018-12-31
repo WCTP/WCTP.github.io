@@ -26,6 +26,6 @@ Throughout this whole process, the Data Product Manager should be overseeing the
 
 From start to finish, the Data Science department should be aware of what other people in their department are doing. If possible, the team should get an expert in the field they are analyzing to ensure they are not making unreasonable assumptions. For example, a Data Science team working with data from a medical field could misinterpret a column or have unreasonable expectations for predicting accuracy. Every dataset requires context to be interpreted.
 
-![Data analysis outlined in a diagram.]({{site.baseurl}}/images/blog/Data%20Analysis%20Process.png)
+![Data analysis outlined in a diagram.](/images/blog/Data%20Analysis%20Process.png)
 
 When this collaborative process finishes, then a company should be able to get the report they want. This ideal department should be able to scale with the size of a company by adding specializations or combining roles. Hopefully, this approach will be adopted by more industry leaders until this is finally common practice. This step in the right direction might eventually lead the field of Data Science from being a field of guesswork to a methodical science.
