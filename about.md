@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hello! Welcome to my portfolio website! Here you’ll find my resume, coding projects, writing pieces, and my aspirations. (Note: some links are still under construction!) I encourage you to explore the work I have done and learn who I really am. If you want to know a little bit more about who I am, keep reading!
+Hello! Welcome to my portfolio website! Here you’ll find my resume, coding projects, writing pieces, and my aspirations. I encourage you to explore the work I have done and learn who I really am. If you want to know a little bit more about who I am, keep reading!
 
 ![Walter sitting in captains chair.](/images/Bio-Card.JPG "Star Trek Captain's Chair")
 
