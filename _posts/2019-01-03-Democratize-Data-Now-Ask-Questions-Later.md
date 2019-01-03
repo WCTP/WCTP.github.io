@@ -1,6 +1,9 @@
 ---
-published: false
----
+layout: post
+title: Democratize Data Now, Ask Questions Later
+published: true
+categories: blog
+------
 Data Science is an underdeveloped field. There are no industry standards. Although online courses exist, few address key problems such as ethics. As an incoming Data Analyst, I have trouble analyzing my own results! Despite all of these pitfalls of Data Science, there is increased demand and hype for the democratization of data; a demand that seems to have come a couple of years too early.
 
 ## What does "the democratization of data" mean?
