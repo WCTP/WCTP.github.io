@@ -1,3 +1,5 @@
+@import '_variables';
+
 .sidenav {
   background: linear-gradient(210deg, #016FB9, #016FB9, #016FB9, #016FB9);
   top: 0;
@@ -75,6 +77,57 @@
     }
   }
 
+}
+
+.mobilenav {
+  background: linear-gradient(210deg, #016FB9, #016FB9, #016FB9, #016FB9);
+  display: none;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 55px;
+  position: fixed;
+  padding-right: 15px;
+  padding-top: 20px;
+  box-shadow: 2px 0px 4px 1px black;
+  z-index: 1;
+
+  .media-container {
+    padding-left: 15px;
+
+    i {
+      margin-bottom: 5px;
+      transition: 0.3s;
+    }
+
+    i:hover {
+      filter: invert(100%);
+      transition: 0.3s;
+    }
+
+    img {
+      border: black solid 1px;
+      border-radius: 500px;
+      margin-bottom: 5px;
+      height: 38px;
+      width: 38px;
+    }
+
+    img:hover {
+      filter: invert(100%);
+      transition: 0.3s;
+    }
+  }
+}
+
+@media screen and (max-width: $mobile-break) {
+  .sidenav {
+    display: none;
+  }
+
+  .mobilenav {
+    display: block;
+  }
 }
 
 ::-webkit-scrollbar-track {

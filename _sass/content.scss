@@ -8,9 +8,10 @@ body {
 }
 
 .main {
-  margin-left: 23%;
+  margin-left: calc(265px + 2%);
   padding: 20px;
   margin-top: 20px;
+  text-align: center;
 
   .large-card {
     display: block;
@@ -224,4 +225,16 @@ body {
 
   }
 
+}
+
+@media screen and (max-width: $mobile-break) {
+  .main {
+    margin-left: calc(75px + 2%);
+  }
+}
+
+@media screen and (min-width: $expanding-nav) {
+  .main {
+    margin-left: calc(22% + 25px);
+  }
 }
