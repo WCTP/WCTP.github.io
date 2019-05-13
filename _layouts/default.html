@@ -21,23 +21,35 @@
       <!-- <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a> -->
       <a href="{{ site.baseurl }}/" class="title">{{ site.name }}</a>
       <p class="subtitle">{{ site.description }}</p>
-      <a href="{{ site.baseurl }}/about" class="main-link">About</a>
-      <a href="{{ site.baseurl }}/" class="main-link">Blog</a>
-      <a href="{{ site.baseurl }}/code" class="main-link">Code</a>
-      <a href="{{ site.baseurl }}/writing" class="main-link">Writing</a>
-      <a href="{{ site.baseurl }}/resume" class="main-link">Resume</a>
+      <a href="{{ site.baseurl }}/about" class="main-link" id="about">About</a>
+      <a href="{{ site.baseurl }}/" class="main-link" id="blog">Blog</a>
+      <a href="{{ site.baseurl }}/code" class="main-link" id="code">Code</a>
+      <a href="{{ site.baseurl }}/writing" class="main-link" id="writing">Writing</a>
+      <a href="{{ site.baseurl }}/resume" class="main-link" id="resume">Resume</a>
       <div class="social-media-container">{% include svg-icons.html %}</div>
     </nav>
     <nav class="mobilenav">
       <div class="media-container">
-        <a href="{{ site.baseurl }}/about" class="main-link"><img src="/svg-icons/about.svg" alt="Image for About link"</img></a>
-        <a href="{{ site.baseurl }}/" class="main-link"><img src="/svg-icons/blog.svg" alt="Image for Blog link"</img></a>
-        <a href="{{ site.baseurl }}/code" class="main-link"><img src="/svg-icons/code.svg" alt="Image for Code link"</img></a>
-        <a href="{{ site.baseurl }}/writing" class="main-link"><img src="/svg-icons/writing.svg" alt="Image for Writing link"</img></a>
-        <a href="{{ site.baseurl }}/resume" class="main-link"><img src="/svg-icons/resume.svg" alt="Image for Resume link"</img></a>
+        <a href="{{ site.baseurl }}/about" class="main-link"><img src="/svg-icons/about.svg" alt="Image for About link" id="nav-about"></img></a>
+        <a href="{{ site.baseurl }}/" class="main-link"><img src="/svg-icons/blog.svg" alt="Image for Blog link" id="nav-blog"></img></a>
+        <a href="{{ site.baseurl }}/code" class="main-link"><img src="/svg-icons/code.svg" alt="Image for Code link" id="nav-code"></img></a>
+        <a href="{{ site.baseurl }}/writing" class="main-link"><img src="/svg-icons/writing.svg" alt="Image for Writing link" id="nav-writing"></img></a>
+        <a href="{{ site.baseurl }}/resume" class="main-link"><img src="/svg-icons/resume.svg" alt="Image for Resume link" id="nav-resume"></img></a>
         {% include svg-icons.html %}
       </div>
     </nav>
+
+    <script>
+      var MAX_LENGTH = 10;
+      var url = window.location.href.split('/');
+      var page = url[3];
+      console.log(page.length);
+      if (page.length == 0) {
+        page = "blog";
+      }
+      document.getElementById(page).setAttribute("style", "color: #42f7c7;");
+      document.getElementById("nav-" + page).setAttribute("style", "border: #42f7c7 solid 1px; filter: invert(100%);");
+    </script>
 
 
     <div class="main">
